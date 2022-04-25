@@ -76,6 +76,35 @@ public class Board {
 			//grazie al "binding" fatto in FXMLController, la "set" modifica direttamente il testo del botone collegato alla posizione corrente
 			this.cells.get(p).set(letter); 
 		}
+		
+		String search = "IEAZICTSRAONOLAR";
+		
+		this.cells.get(positions.get(0)).set(this.charToString(search.charAt(0)));
+		this.cells.get(positions.get(1)).set(this.charToString(search.charAt(1)));
+		this.cells.get(positions.get(2)).set(this.charToString(search.charAt(2)));
+		this.cells.get(positions.get(3)).set(this.charToString(search.charAt(3)));
+		
+		this.cells.get(positions.get(4)).set(this.charToString(search.charAt(4)));
+		this.cells.get(positions.get(5)).set(this.charToString(search.charAt(5)));
+		this.cells.get(positions.get(6)).set(this.charToString(search.charAt(6)));
+		this.cells.get(positions.get(7)).set(this.charToString(search.charAt(7)));
+		
+		this.cells.get(positions.get(8)).set(this.charToString(search.charAt(8)));
+		this.cells.get(positions.get(9)).set(this.charToString(search.charAt(9)));
+		this.cells.get(positions.get(10)).set(this.charToString(search.charAt(10)));
+		this.cells.get(positions.get(11)).set(this.charToString(search.charAt(11)));
+
+		this.cells.get(positions.get(12)).set(this.charToString(search.charAt(12)));
+		this.cells.get(positions.get(13)).set(this.charToString(search.charAt(13)));
+		this.cells.get(positions.get(14)).set(this.charToString(search.charAt(14)));
+		this.cells.get(positions.get(15)).set(this.charToString(search.charAt(15)));
+		
+	}
+	
+	public String charToString(char c) {
+		String stmp = "";
+		stmp+=c;
+		return stmp;
 	}
 	
 	/**
