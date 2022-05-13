@@ -1,6 +1,7 @@
 package it.polito.tdp.ruzzle;
 
 import javafx.application.Application;
+
 import it.polito.tdp.ruzzle.model.Model;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
